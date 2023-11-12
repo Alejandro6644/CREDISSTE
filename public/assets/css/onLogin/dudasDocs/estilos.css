@@ -1,0 +1,78 @@
+.dudas-docs-container {
+    color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+.cuadro-dudas {
+    background-color: black;
+    color: white;
+    height: 4.75rem;
+    width: 42.5625rem;
+    border-radius: 1.3125rem;
+    font-size: 1.85rem;
+}
+
+.centrar-todo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo-container-dudas-docs {
+    color: black;
+    font-size: 2rem;
+    text-align: center;
+    border-bottom: 0.3125rem solid black;
+}
+
+.informacion-documentos {
+    flex: 1 1 auto;
+
+}
+
+.lista-documentos{
+    width: 16.5625rem;
+    background-color: #F4F4F4;
+    height: 100%;
+}
+
+.lista-documentos ul li{
+    border-bottom: .125rem solid black;
+    height: 4.875rem;
+    list-style: none;
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1.25rem;
+    cursor: pointer;
+}
+
+.upload-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    cursor: pointer;
+
+}
+
+.lista-documentos ul li:hover{
+background-color: rgb(189, 188, 188);
+}
+
+
+.titulo-documento-interno{
+    height: 2.75rem;
+    background-color: #9D2449;
+    color: white;
+    font-size: 2rem;
+    padding: .125rem .625rem;
+}
+
+#descripcion-documento{
+    box-shadow: 10px 5px 5px black;
+    border: 2px solid black;
+}

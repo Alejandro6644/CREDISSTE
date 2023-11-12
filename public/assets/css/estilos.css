@@ -1,0 +1,70 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url("/assets/fonts/Montserrat-Regular.ttf") format("opentype");
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Montserrat;
+}
+
+* {
+    color: white;
+    font-family: Monts;
+}
+
+.cabeceraOficial {
+    background-color: #13322b;
+    height: 10vh;
+    flex: 0 1 auto;
+}
+.tituloCred {
+    font-size: 44px;
+}
+.cuerpoOficial {
+    flex: 1 1 auto;
+}
+
+.footerOficial {
+    flex: 0 1 auto;
+    height: 10vh;
+    background-color: #13322b;
+    background-image: url("/assets/images/footer.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#content {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.titulo {
+    flex: 0 1 auto;
+}
+
+.cuerpo {
+    flex: 1 1 auto;
+}
+.pie {
+    flex: 0 1 auto;
+}
+
+.logo {
+    width: 80%;
+    height: 85%;
+}
+
+@media (min-width: 1280px) {
+    html {
+        font-size: 100%;
+    }
+}
+
+html {
+    font-size: 81.25%;
+}

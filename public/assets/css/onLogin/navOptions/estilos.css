@@ -1,0 +1,60 @@
+* {
+    font-family: Montserrat;
+    font-size: 15px;
+}
+.enviar-docs,
+.dudas-docs,
+.buzon-docs,
+.sugerencias-docs,
+.nomina {
+    background-color: black;
+    border-radius: 45px;
+    display: flex;
+    justify-content: space-around;
+    padding: 5px 15px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.enviar-docs {
+    width: 269px;
+    height: 40px;
+}
+
+.dudas-docs {
+    width: 396px;
+    height: 40px;
+}
+
+.buzon-docs {
+    width: 330px;
+    height: 40px;
+}
+
+.sugerencias-docs {
+    width: 338px;
+    height: 40px;
+}
+
+.nomina {
+    width: 338px;
+    height: 40px;
+}
+
+.enviar-docs:hover,
+.dudas-docs:hover,
+.buzon-docs:hover,
+.sugerencias-docs:hover,
+.nomina:hover {
+    background-color: #0f62fe !important;
+    color: white !important;
+}
+
+.enviar-docs:hover > .fa,
+.dudas-docs:hover > .fa,
+.buzon-docs:hover > .fa,
+.sugerencias-docs:hover > .fa,
+.nomina:hover > .fa {
+    background-color: #0f62fe !important;
+    color: red;
+}

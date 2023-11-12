@@ -1,0 +1,153 @@
+.principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-direction: column;
+    box-shadow: 10px 10px 15px 0px rgba(252, 253, 252, 0.652);
+    border: 5px solid rgb(0, 118, 35);
+}
+
+.cabecera {
+    text-align: center;
+    background-color: #a4faab;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    width: 100%;
+    flex: 0 1 4.5rem;
+    padding: 1rem;
+}
+
+.cabecera a {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+
+.cuerpo {
+    flex: 1 1 auto;
+    display: flex;
+    align-items: flex-start;
+    overflow: auto;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.pie {
+    flex: 0 1 5.5rem;
+    background-color: #81e089ad;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.botones {
+    height: 1.5rem;
+    width: 3.5rem;
+    font-size: 0.75rem;
+    padding: 0;
+}
+
+.alinear-centro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.datos {
+    transition: all ease-in-out 0.5s;
+    cursor: pointer;
+    border-radius: 10px;
+    overflow: auto;
+    width: 100%;
+}
+.content-data {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6rem;
+}
+
+.password {
+    width: auto;
+    overflow: auto;
+    text-overflow: clip;
+    white-space: normal;
+    height: 100px; /* Altura deseada del div */
+}
+
+td {
+    border-bottom-width: 0.0625rem;
+}
+
+.datos:hover {
+    transform: translateY(-0.5rem);
+}
+
+th {
+    text-align: center;
+}
+
+.table-responsive {
+    overflow: auto;
+}
+
+.fila-color {
+    padding: 3rem;
+    overflow: auto;
+    height: 30rem;
+}
+
+.fila-color .datos:nth-of-type(odd) {
+    background-color: lightgreen; /* verde claro */
+    margin-bottom: 3rem;
+    padding: 0.5rem;
+    box-shadow: 10px 10px 15px 0px rgba(0, 250, 187, 0.864);
+}
+
+.fila-color .datos:nth-of-type(odd) > h2 {
+    color: #003366 !important;
+}
+
+.fila-color .datos:nth-of-type(odd):hover > h2 {
+    color: #006400 !important;
+}
+
+.datos:nth-of-type(odd):hover {
+    background-color: rgb(131, 216, 214);
+    border-radius: 20px;
+    transform: scale(1.05);
+}
+.fila-color .datos:nth-of-type(even) {
+    background-color: #d9ffb3; /* verde crema */
+    margin-bottom: 3rem;
+    padding: 0.5rem;
+    box-shadow: 10px 10px 15px 0px rgba(2, 182, 137, 0.372);
+}
+
+.fila-color .datos:nth-of-type(even) > h2 {
+    color: rgb(137, 179, 64);
+
+}
+.datos:nth-of-type(even):hover {
+    background-color: #cfff04;
+    border-radius: 20px;
+    transform: scale(1.05);
+}
+
+.regresar:hover {
+    transform: rotate(360deg);
+}
+
+.regresar {
+    transition: transform 0.3s ease;
+}

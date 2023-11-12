@@ -1,0 +1,119 @@
+.dudas-docs-container {
+    color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+.cuadro-dudas {
+    background-color: black;
+    color: white;
+    height: 4.75rem;
+    width: 42.5625rem;
+    border-radius: 1.3125rem;
+    font-size: 1.85rem;
+}
+
+.centrar-todo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo-container-dudas-docs {
+    color: black;
+    font-size: 2rem;
+    text-align: center;
+    border-bottom: 0.3125rem solid black;
+}
+
+.informacion-documentos {
+    flex: 1 1 auto;
+    width: 100%;
+    color: black;
+    padding:  1.25rem;
+    overflow: auto;
+    border: 2px solid black;
+    box-shadow: 10px 5px 5px black;
+}
+
+.lista-documentos {
+    width: 16.5625rem;
+    background-color: #f4f4f4;
+    height: 100%;
+}
+
+.lista-documentos ul li {
+    border-bottom: 0.125rem solid black;
+    height: 4.875rem;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1.25rem;
+    cursor: pointer;
+}
+
+.lista-documentos ul li:hover {
+    background-color: rgb(189, 188, 188);
+}
+
+.titulo-documento-interno {
+    height: 2.75rem;
+    background-color: #9d2449;
+    color: white;
+    font-size: 2rem;
+    padding: 0.125rem 0.625rem;
+}
+
+.notificacion {
+    height: 4.125rem;
+    width: 100%;
+    border-bottom: .0625rem solid gray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: beige;
+    color: black !important;
+    margin-bottom: .625rem;
+    padding-left: .625rem;
+    padding-right: .625rem;    
+}
+
+.notificacion > span{
+    font-size: 25px;
+}
+
+.notificacion:hover{
+    background-color: rgb(238, 238, 152);
+    cursor: pointer;
+}
+
+
+
+.titulo-personal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4.125rem;
+    border-bottom: 2px solid black;
+
+}
+
+.titulo-personal > *{
+    color: black !important;
+}
+
+.datos-individual{
+    color: black;
+}
+
+.mensaje-individual{
+    color: black !important;
+}
+
+.contenido{
+    display: flex;
+    flex-direction: column;
+}

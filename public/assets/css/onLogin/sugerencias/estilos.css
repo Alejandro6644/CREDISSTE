@@ -1,0 +1,185 @@
+.dudas-docs-container {
+    color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+.cuadro-dudas {
+    background-color: #000000;
+    color: white;
+    height: 4.75rem;
+    width: 42.5625rem;
+    border-radius: 1.3125rem;
+    font-size: 1.85rem;
+}
+
+.centrar-todo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.upload-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+.cargar:hover {
+    background-color: #00d33c !important;
+    color: black;
+}
+
+.cargar {
+    padding: 0.3125rem 0.625rem;
+    cursor: pointer !important;
+
+}
+
+.titulo-container-dudas-docs {
+    color: black;
+    font-size: 2rem;
+    text-align: center;
+    border-bottom: 0.3125rem solid black;
+}
+
+.informacion-documentos {
+    flex: 1 1 auto;
+    width: 100%;
+    color: black;
+    padding: 1.25rem;
+    overflow: auto;
+    border: 2px solid black;
+    box-shadow: 10px 5px 5px black;
+}
+
+.pie-boton {
+    flex: 0 1 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenido-central {
+    display: flex;
+    flex-direction: column;
+}
+
+.contenido-central2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.lista-documentos {
+    width: 16.5625rem;
+    background-color: #f4f4f4;
+    height: 100%;
+}
+
+.lista-documentos ul li {
+    border-bottom: 0.125rem solid black;
+    height: 4.875rem;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1.25rem;
+    cursor: pointer;
+}
+
+.lista-documentos ul li:hover {
+    background-color: rgb(189, 188, 188);
+}
+
+.titulo-documento-interno {
+    height: 2.75rem;
+    background-color: #9d2449;
+    color: white;
+    font-size: 2rem;
+    padding: 0.125rem 0.625rem;
+}
+
+.notificacion {
+    height: 4.125rem;
+    width: 100%;
+    border-bottom: 0.0625rem solid gray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: beige;
+    color: black !important;
+    margin-bottom: 0.625rem;
+    padding-left: 0.625rem;
+    padding-right: 0.625rem;
+}
+
+.notificacion > span {
+    font-size: 25px;
+}
+
+.notificacion:hover {
+    background-color: rgb(238, 238, 152);
+    cursor: pointer;
+}
+
+.titulo-personal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4.125rem;
+    border-bottom: 2px solid black;
+}
+
+.titulo-personal > * {
+    color: black !important;
+}
+
+.datos-individual {
+    color: black;
+}
+
+.mensaje-individual {
+    color: black !important;
+}
+
+.contenido {
+    display: flex;
+    flex-direction: column;
+}
+
+#exampleFormControlTextarea1::placeholder {
+    text-align: center;
+    vertical-align: middle;
+    font-size: 3.875rem;
+}
+
+#exampleFormControlTextarea1 {
+    font-size: 1.25rem;
+}
+
+/* Estilos para el encabezado */
+.header {
+    background-color: #036;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+}
+
+/* Estilos para el contenido de la página */
+.content {
+    padding: 20px;
+}
+
+/* Estilos para la gráfica */
+.chart-container {
+    width: 600px;
+    height: 400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;    
+}

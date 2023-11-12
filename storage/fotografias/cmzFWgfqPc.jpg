@@ -1,0 +1,41 @@
+
+            <canvas id="RMks88nqH0"></canvas>
+            <script>
+                var labels = "[\"Laura\",\"Juan\",\"Juan\",\"Daniel\",\"Pablo\"]";
+                var valores = "[\"2018.00\",\"5231.00\",\"2636.00\",\"430.00\",\"233.00\"]";
+                var encabezado = "\"Sueldos\"";
+    
+                var ctx = document.getElementById("RMks88nqH0").getContext("2d");
+                var myChart = new Chart(ctx, {
+                    type: "bar",
+                    data: {
+                        labels: labels,
+                        datasets: [{
+                            label: encabezado,
+                            data: valores,
+                            backgroundColor: "rgba(75, 192, 192, 0.2)",
+                            borderColor: "rgba(75, 192, 192, 1)",
+                            borderWidth: 1
+                        }]
+                    },
+                    options: {
+                        scales: {
+                            y: {
+                                beginAtZero: true
+                            }
+                        }
+                    }
+                });
+    
+                var chartImage = ctx.canvas.toDataURL("image/jpeg");
+                var xhr = new XMLHttpRequest();
+                xhr.open("POST", "/guardar-grafica");
+                xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+                xhr.onreadystatechange = function() {
+                    if (xhr.readyState === 4 && xhr.status === 200) {
+                        console.log("La gráfica se ha guardado correctamente");
+                    }
+                };
+                xhr.send("imagen=" + encodeURIComponent(chartImage));
+            </script>
+        
